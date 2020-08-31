@@ -17,9 +17,9 @@ function App() {
     <React.Fragment>
       <div className="main-div" ref={confettiRef}>
         <div className="center_div">
-          <p>Wishing You a Very Happy Birthday Dear!
-            <span>🎂🍰</span>
+          <p>Wishing You a Very Happy Birthday!
             <br />
+            Stay Happy & Bleesed <br />
             <span className="love">❤</span> from Soumyadeep
             <Confetti
               numberOfPieces={250}
