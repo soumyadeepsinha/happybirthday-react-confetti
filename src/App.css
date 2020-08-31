@@ -37,13 +37,11 @@ html {
 @media screen and (max-width: 740px) {
   .center_div {
     font-size: 3.8rem;
-    font-weight: 200;
   }
 }
 
 @media screen and (max-width: 500px) {
   .center_div {
     font-size: 3rem;
-    font-weight: 300;
   }
 }
