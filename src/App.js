@@ -9,7 +9,9 @@ function App() {
   const confettiRef = useRef(null)
 
   useEffect(() => {
+    // current window height
     setHeight(confettiRef.current.clientHeight)
+    // current window width
     setWidth(confettiRef.current.clientWidth)
   }, [])
 
@@ -17,7 +19,9 @@ function App() {
     <React.Fragment>
       <div className="main-div" ref={confettiRef}>
         <div className="center_div">
-          <p>Wishing You a Very Happy Birthday!
+          <p>Wishing You a Very Happy Birthday </p>
+          🎂
+          <p>
             <br />
             Stay Happy & Bleesed <br />
             <span className="love">❤</span> from Soumyadeep
