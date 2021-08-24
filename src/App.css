@@ -32,7 +32,52 @@ html {
 }
 
 .love {
-  color: red;
+  position: relative;
+  width: 100px;
+  height: 160px;
+  background: #ff0000;
+  border-radius: 200px 200px 0 0;
+  transform: rotate(45deg);
+}
+
+.love::before {
+  content: '';
+  position: absolute;
+  background: #ff0000;
+  width: 100px;
+  height: 160px;
+  transform: rotate(-90deg);
+  border-radius: 200px 200px 0 0;
+  left: -30px;
+  top: 30px;
+}
+
+.animate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: zinout 2.5s linear infinite;
+}
+
+@keyframes zinout {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
 }
 
 @media screen and (max-width: 740px) {

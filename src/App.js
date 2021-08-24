@@ -22,9 +22,11 @@ function App() {
           <p>Wishing You a Very Happy Birthday </p>
           🎂
           <p>
-            <br />
             Stay Happy & Bleesed <br />
-            <span className="love">❤</span> from Soumyadeep
+            <div className="animate">
+              <div class="love"></div>
+            </div>
+            from Soumyadeep
             <Confetti
               numberOfPieces={250}
               width={width}
